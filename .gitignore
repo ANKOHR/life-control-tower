@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.lct/
+demo/
+private/
+build/
+dist/
+life-control-tower-codex.log
+life-control-tower-launch.py
+life-control-tower-prompt.txt

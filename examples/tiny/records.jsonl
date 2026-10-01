@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written five-record example. No real personal data.
+{"id":"a","title":"Synthetic school deadline","domain":"school","status":"open","due":"2026-09-29","amount_pence":0,"direction":"none","synthetic":true}
+{"id":"b","title":"Synthetic completed work","domain":"work","status":"done","due":"2026-09-29","amount_pence":0,"direction":"none","synthetic":true}
+{"id":"c","title":"Synthetic entered income","domain":"money","status":"done","due":null,"amount_pence":123,"direction":"income","synthetic":true}
+{"id":"d","title":"Synthetic entered expense","domain":"money","status":"open","due":null,"amount_pence":23,"direction":"expense","synthetic":true}
+{"id":"e","title":"Synthetic commitment","domain":"commitments","status":"open","due":"2026-10-07","amount_pence":0,"direction":"none","synthetic":true}

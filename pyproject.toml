@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "life-control-tower"
+version = "0.1.0"
+description = "Deterministic local life overview"
+requires-python = ">=3.10"
+
+[project.scripts]
+lct = "life_control_tower.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["life_control_tower*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
